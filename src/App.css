@@ -1,0 +1,91 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  box-shadow: 2px 2px 4px 4px rgba(239, 12, 12, 0.919);
+  margin: 5% 10%;
+  padding: 2%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+input {
+  padding: 1%;
+  width: 70%;
+  max-width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 2%;
+}
+
+button {
+  padding: 1% 2%;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ListC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.List {
+  margin-top: 2%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2%;
+  box-shadow: 0 2px 4px rgba(239, 12, 12, 0.919);
+}
+
+.List p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.List button {
+  margin-top: 1%;
+  margin-left: 1%;
+  padding: 0.8% 1.5%;
+  background-color: #E74C3C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.List button:hover {
+  background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .App {
+    margin: 5% 5%;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .List {
+    margin-top: 5%;
+  }
+}
